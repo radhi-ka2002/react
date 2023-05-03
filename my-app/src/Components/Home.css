@@ -1,0 +1,67 @@
+.home {
+    padding: 2rem;
+  }
+  
+  .todo-item {
+    padding: 1rem;
+    text-align: left;
+    box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.75);
+    margin: 1rem;
+  }
+  
+  .todo-userId {
+    padding-right: 0.5rem;
+  }
+  
+  .todo-ids {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-desc-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    margin: 0 0.5rem;
+  }
+  
+  .input-wrapper {
+    padding: 2rem;
+    width: 90vw;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.75);
+    background-color: aquamarine;
+  }
+  
+  input {
+    margin-left: 1rem;
+    padding: 0.25rem;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .edit-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
